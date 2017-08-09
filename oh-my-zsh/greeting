@@ -1,0 +1,17 @@
+[32mWelcome to Oh My Zsh demo!
+
+  ____  / /_     ____ ___  __  __   ____  _____/ /_
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
+                        /____/
+
+Oh My Zsh is installed in ~/.oh-my-zsh directory.
+Please look over the ~/.zshrc file to select plugins, themes, and options.
+
+[mWeb terminal usage
+==================
+ * Click the titlebar to drag
+ * Double-click the titlebar to maximize
+ * Click and drag the lower-right corner to resize
+
