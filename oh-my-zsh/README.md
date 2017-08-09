@@ -1,8 +1,7 @@
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](http://www.zsh.org/) configuration.
+In this demo you're given a web terminal that runs zsh shell with Oh My Zsh installed in `~/.oh-my-zsh` directory.
 
 ## Using Oh My Zsh
-
-In this demo you're given a web terminal that runs zsh shell with Oh My Zsh installed in `~/.oh-my-zsh` directory.
 
 ### Plugins
 
