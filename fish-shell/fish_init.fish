@@ -9,3 +9,6 @@ set -U fish_color_error ff0000
 set -U fish_color_param 00afff
 set -U fish_color_quote 999900
 set -U fish_color_redirection 00afff
+
+# Remove the fish greeting
+set -U fish_greeting

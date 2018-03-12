@@ -1,4 +1,7 @@
 #!/bin/bash
+
+/opt/fish_init.fish
+
 # Print the greeting
 cat /.greeting 2> /dev/null
 

@@ -22,8 +22,6 @@ USER box
 WORKDIR /home/box
 
 COPY fish_init.fish /opt/fish_init.fish
-RUN /opt/fish_init.fish
-
 COPY greeting /.greeting
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
