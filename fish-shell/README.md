@@ -107,26 +107,7 @@
 }
 </style>
 
-# Why fish?
-
 `fish` is a fully-equipped command line shell (like bash or zsh) that is smart and user-friendly. `fish` supports powerful features like syntax highlighting, autosuggestions, and tab completions that just work, with nothing to learn or configure.
-
-If you want to make your command line more productive, more useful, and more fun, without learning a bunch of arcane syntax and configuration options, then `fish` might be just what you're looking for!
-
-# Learning fish
-
-This tutorial assumes a basic understanding of command line shells and Unix commands, and that you have a working copy of `fish`.
-
-If you have a strong understanding of other shells, and want to know what `fish` does differently, search for the magic phrase *unlike other shells*, which is used to call out important differences.
-
-When you start `fish`, you should see this:
-
-<pre class="fish cli-dark"><span class="output">Welcome to fish, the friendly interactive shell</span>
-<span class="">Type <span class="cwd">help</span> for instructions on how to use fish</span>
-you<span>@</span>hostname <span class="prompt"><span class="path">~</span>&gt;</span><span class="cursor"> </span>
-</pre>
-
-`fish` comes with a default prompt that shows your username, hostname, and working directory. You'll see [how to change your prompt](#tut_prompt) further down. From now on, we'll pretend your prompt is just a `>` to save space.
 
 # Running Commands
 
