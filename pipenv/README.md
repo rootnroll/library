@@ -19,7 +19,7 @@ $ cd myproject
 $ pipenv install requests
 ```
 
-Pipenv will install the excellent [Requests](https://python-requests.org)
+Pipenv will install the excellent [Requests](http://docs.python-requests.org)
 library and create a `Pipfile` for you in your project's directory. The
 Pipfile is used to track which dependencies your project
 needs in case you need to re-install them, such as when you share your
@@ -27,7 +27,7 @@ project with others.
   
 ## Using installed packages
 
-Now that Requests is installed you can create a simple main.py file to use it
+Now that Requests is installed you can create a simple `main.py` file to use it
 (for the simplicity of this tutorial we've already created it for you):
 
 ```
@@ -61,3 +61,10 @@ $ pipenv shell
 ## Next steps
 
 Congratulations, you now know how to install and use Python packages! ✨ 🍰 ✨
+Next, you can explore the official Pipenv [documentation](https://docs.pipenv.org/).
+
+If you're interested in what kind of shell is used here, it's fish! You can play with
+it in our [fish shell](https://rootnroll.com/d/fish-shell/) playground.
+
+You can also improve this playground or create your own. Please send a PR or open
+an issue in [github.com/rootnroll/library](https://github.com/rootnroll/library).
