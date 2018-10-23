@@ -26,7 +26,7 @@
 .fish {
   margin:1rem 0;
   padding:0.6rem 1rem;
-  line-height:1.8rem;
+  line-height:1.2rem;
   color:#111;
   background-color:#fafafa;
   border:1px solid #bbb;
@@ -47,7 +47,7 @@
 .string,.string .operator {
   color:#858904;
 }
-.cli-dark {
+pre.cli-dark {
   background-color:#222;
   color:#ccc;
   text-shadow:none;
