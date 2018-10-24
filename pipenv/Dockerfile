@@ -23,10 +23,10 @@ WORKDIR /home/box
 
 RUN curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher \
     && fish -c "fisher add oh-my-fish/theme-bobthefish"
-COPY --chown=box:box config.fish ~/.config/fish/
+COPY --chown=box:box config.fish .config/fish/
 
 RUN pip3 install --user pipenv
-COPY --chown=box:box myproject ~/myproject
+COPY --chown=box:box myproject myproject
 RUN git init ~/myproject
 
 CMD ["/usr/bin/fish"]
