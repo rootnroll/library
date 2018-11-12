@@ -1,3 +1,5 @@
+<!--nologo-->
+
 [Poetry](https://poetry.eustace.io/) is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
 For the basic usage introduction we will be installing `pendulum`, a datetime library.
