@@ -1,4 +1,4 @@
-# Playgrounds library
+# rootnroll library
 
 This repository contains source files to build Docker images used to run interactive playgrounds/demos on [rootnroll.com](https://rootnroll.com).
 
