@@ -69,7 +69,7 @@ It will automatically find a suitable version constraint.
 In our example, we are requesting the `pendulum` package with the version constraint `^1.4`.
 This means any version greater or equal to 1.4.0 and less than 2.0.0 (`>=1.4.0 <2.0.0`).
 
-Please read [versions](/docs/versions/) for more in-depth information on versions, how versions relate to each other, and on version constraints.
+Please read [versions](https://poetry.eustace.io/docs/versions/) for more in-depth information on versions, how versions relate to each other, and on version constraints.
 
 ## Installing dependencies
 
@@ -123,7 +123,7 @@ As mentioned above, the `poetry.lock` file prevents you from automatically getti
 of your dependencies.
 To update to the latest versions, use the `update` command.
 
-```!bash
+```bash
 $ poetry update
 ```
 
