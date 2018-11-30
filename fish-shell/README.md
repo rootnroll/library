@@ -292,7 +292,7 @@ Unlike other shells, `fish` does not have an export command. Instead, a variable
 
 <pre class="fish cli-dark"><span class="prompt">&gt;</span> <span class="command">set</span> <span class="argument">-x</span> <span class="argument">MyVariable</span> <span class="argument">SomeValue</span>
 <span class="prompt">&gt;</span> <span class="binary">env</span> <span class="redirect">|</span> <span class="binary">grep</span> <span class="argument">MyVariable</span>
-<span class="output"><span class="match">MyVariablem</span>=SomeValue</span>
+<span class="output"><span class="match">MyVariable</span>=SomeValue</span>
 </pre>
 
 You can erase a variable with `-e` or `--erase`
