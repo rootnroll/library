@@ -1,5 +1,4 @@
-#FROM rootnroll/demo-ubuntu:18.04
-FROM my-demo-ubuntu
+FROM rootnroll/demo-ubuntu:18.04
 LABEL maintainer "Pavel Sviderski <me@psviderski.name>"
 
 # From https://github.com/influxdata/influxdata-docker/blob/master/telegraf/1.10/Dockerfile
