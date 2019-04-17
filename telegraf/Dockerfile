@@ -31,6 +31,10 @@ RUN wget --no-verbose https://dl.influxdata.com/influxdb/releases/influxdb_${INF
     dpkg -i influxdb_${INFLUXDB_VERSION}_amd64.deb && \
     rm -f influxdb_${INFLUXDB_VERSION}_amd64.deb*
 
+# Update init scripts to not claim ulimit -n greater than 512 to be able to run services in rootnroll.
+RUN sed -i -e 's/^OPEN_FILE_LIMIT=.*/OPEN_FILE_LIMIT=512/' /etc/init.d/telegraf \
+    && sed -i -e 's/^OPEN_FILE_LIMIT=.*/OPEN_FILE_LIMIT=512/' /etc/init.d/influxdb
+
 WORKDIR /home/box
 COPY docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
