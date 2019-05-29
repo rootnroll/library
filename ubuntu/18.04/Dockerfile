@@ -6,9 +6,9 @@ RUN apt-get update && apt-get --no-install-recommends -y install \
     git rsync \
     python3 python3-pip python3-venv \
     # Add fish-shell repo and install fish, gnupg2 is required for apt-key
-    && echo "deb http://ppa.launchpad.net/fish-shell/release-2/ubuntu bionic main" > /etc/apt/sources.list.d/fish.list \
+    && echo "deb http://ppa.launchpad.net/fish-shell/release-3/ubuntu bionic main" > /etc/apt/sources.list.d/fish.list \
     && apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 6DC33CA5 \
-    && apt-get install -y fish \
+    && apt-get update && apt-get install --no-install-recommends -y fish \
     && rm -rf /var/lib/apt/lists/*
 RUN locale-gen en_US.UTF-8
 
