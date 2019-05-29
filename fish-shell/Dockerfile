@@ -11,7 +11,6 @@ ENV FISH_VERSION 3.0.2-1~bionic
 RUN apt-get update && apt-get install --no-install-recommends -y fish=${FISH_VERSION} \
     && rm -rf /var/lib/apt/lists/*
 
-COPY fish_init.fish /opt/fish_init.fish
 COPY greeting /.greeting
 COPY docker-entrypoint.sh /
 WORKDIR /home/box
