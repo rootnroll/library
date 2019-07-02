@@ -1,7 +1,8 @@
-<!--nologo-->
-<!--
+---
 docker_image: theelves/elvish:latest
--->
+---
+
+<!--nologo-->
 
 <style type="text/css">
 pre.ttyshot {
