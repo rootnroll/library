@@ -5,7 +5,7 @@ In this demo you're given a web terminal that runs zsh shell with Oh My Zsh inst
 
 ### Plugins
 
-Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
+Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins) directory and/or the [wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins) to see what's currently available.
 
 #### Enabling Plugins
 
@@ -25,7 +25,7 @@ Most plugins (should! we're working on this) include a __README__, which documen
 
 ### Themes
 
-We'll admit it. Early in the Oh My Zsh world, we may have gotten a bit too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://wiki.github.com/robbyrussell/oh-my-zsh/themes) on the wiki. Check them out!
+We'll admit it. Early in the Oh My Zsh world, we may have gotten a bit too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) on the wiki. Check them out!
 
 #### Selecting a Theme
 
@@ -42,14 +42,14 @@ To use a different theme, simply change the value to match the name of your desi
 ```shell
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
 # you might need to install a special Powerline font on your console's host for this to work
-# see https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#agnoster
+# see https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster
 ```
 
 Open up a new terminal window and your prompt should look something like this:
 
 ![Agnoster theme](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
-In case you did not find a suitable theme for your needs, please have a look at the wiki for [more of them](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes).
+In case you did not find a suitable theme for your needs, please have a look at the wiki for [more of them](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes).
 
 If you're feeling feisty, you can let the computer select one randomly for you each time you open a new terminal window.
 
@@ -59,4 +59,4 @@ ZSH_THEME="random" # (...please let it be pie... please be some pie..)
 ```
 
 ## What's Next?
-To learn more about Oh My Zsh, read the full version of [README](https://github.com/robbyrussell/oh-my-zsh) on GitHub, visit [ohmyz.sh](http://ohmyz.sh), and follow [@ohmyzsh](https://twitter.com/ohmyzsh) on Twitter.
+To learn more about Oh My Zsh, read the full version of [README](https://github.com/ohmyzsh/ohmyzsh) on GitHub, visit [ohmyz.sh](http://ohmyz.sh), and follow [@ohmyzsh](https://twitter.com/ohmyzsh) on Twitter.
