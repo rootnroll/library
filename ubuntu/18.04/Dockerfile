@@ -29,5 +29,3 @@ COPY --chown=box:box config.fish /home/box/.config/fish/
 ENV SHELL /usr/bin/fish
 
 CMD ["/usr/bin/fish", "-l"]
-
-
