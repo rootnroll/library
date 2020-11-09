@@ -24,8 +24,7 @@ RUN useradd -m box -s /usr/bin/fish \
     && echo "box ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/box
 
 # Install fisher package manager and configure the Powerline-style bobthefish theme
-RUN gosu box curl -Lo /home/box/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher \
-    && gosu box fish -c "fisher add oh-my-fish/theme-bobthefish"
+RUN gosu box fish -c "curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher oh-my-fish/theme-bobthefish"
 COPY --chown=box:box config.fish /home/box/.config/fish/
 ENV SHELL /usr/bin/fish
 
