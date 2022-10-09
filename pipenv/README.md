@@ -61,7 +61,7 @@ $ pipenv shell
 ## Next steps
 
 Congratulations, you now know how to install and use Python packages! ✨ 🍰 ✨
-Next, you can explore the official Pipenv [documentation](https://docs.pipenv.org/).
+Next, you can explore the official Pipenv [documentation](https://pipenv.pypa.io/).
 
 If you're interested in what kind of shell is used here, it's fish! You can play with
 it in our [fish shell](https://rootnroll.com/d/fish-shell/) playground.
